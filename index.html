@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Schurrer Pamela">
+        <title>Actividad final - Desarrollo Front-End (Nivel 2) ED.2022</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="login">
+            <div class="account-form">
+                <h1> Create Account</h1>
+                <form name="contactForm" onsubmit="return validateForm()"
+                    class="login-form" method="post">
+
+                    <label for="">Nombre</label>
+                    <input type="text" name="name" id="username">
+                    <div class="error" id="nameErr"></div>
+                    <label for="">Email</label>
+                    <input type="text" name="email" id="useremail">
+                    <div class="error" id="emailErr"></div>
+                    <label for="">Clave</label>
+                    <input type="password" name="userpassword"
+                        id="userpassword">
+                    <div class="error" id="userpasswordErr"></div>
+                    <label for="">Confirme su clave</label>
+                    <input type="password" name="userpasswordrepeat"
+                        id="userpasswordrepeat">
+                    <div class="error" id="userpasswordrepeatErr"></div>
+                    <input type="submit" class="btn-send" value="ENVIAR">
+
+                </div>
+            </div>
+
+
+        </body>
+        <script src="index.js"></script>
+    </html>

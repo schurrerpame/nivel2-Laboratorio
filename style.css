@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #242933;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #858FB1;
+
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.account-form {
+    background: #2F3644;
+    border-radius: 10px;
+    padding: 2rem;
+    border: 1px solid #3E445A;
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+
+}
+
+h1 {
+    color: #B6C5EE;
+    font-size: 1.3rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input {
+    border-radius: 5px;
+    margin: .5rem 0;
+    padding: .8rem 1rem;
+    background: #fff;
+}
+
+label {
+    margin: .8rem 0 .3rem 0;
+    display: block;
+}
+
+.btn-send {
+    background: #6C63FF;
+    border: 2px solid #040405;
+    padding: 1rem 0;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.btn-send:hover {
+    background: #564ef8;
+}
+
+.success-icon {
+    border: 2px solid green;
+    background: #fff url(images/success-icon.svg)no-repeat;
+    background-position: 98% center;
+
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+}
+
+.error-icon {
+    border: 2px solid red;
+    background: #fff url(images/error-icon.svg)no-repeat;
+    background-position: 98% center;
+
+}
